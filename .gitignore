@@ -1,0 +1,16 @@
+# Ignore Python/Java/Go cache and compiled files
+*.pyc
+*.class
+*.o
+
+# Ignore Docker files
+.env
+.docker
+
+# Ignore local environment configs
+.DS_Store
+__pycache__/
+node_modules/
+
+# Ignore system files
+.vscode/
